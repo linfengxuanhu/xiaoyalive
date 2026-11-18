@@ -214,7 +214,7 @@ class _CompanionHomeState extends State<CompanionHome>
                   ),
                   const SizedBox(height: 10),
                   Text(_status, textAlign: TextAlign.center,
-                      style: const TextStyle(color: Colors.white80, fontSize: 12)),
+                      style: const TextStyle(color: Color(0xCCFFFFFF), fontSize: 12)),
                   const SizedBox(height: 22),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -257,7 +257,7 @@ class _CompanionHomeState extends State<CompanionHome>
           child: Column(children: [
             Icon(icon, size: 23, color: Colors.white),
             const SizedBox(height: 5),
-            Text(label, style: const TextStyle(fontSize: 11, color: Colors.white90)),
+            Text(label, style: const TextStyle(fontSize: 11, color: Color(0xE6FFFFFF))),
           ]),
         ),
       );
